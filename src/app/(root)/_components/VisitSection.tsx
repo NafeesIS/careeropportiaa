@@ -67,7 +67,7 @@ const VisitSection = () => {
             <p className='mb-6 text-muted-foreground'>
               From the historic streets of Moscow and St. Petersburg to the
               natural beauty of Lake Baikal and the Caucasus Mountains, Russia
-              offers unforgettable experiences for every visitor.
+              offers really unforgettable experiences for every visitor.
             </p>
             <Button variant='default' className='mx-auto'>
               Travel Guide
