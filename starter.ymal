@@ -1,0 +1,9 @@
+name: nextjs-app
+services:
+  - name: web
+    project_root: .
+    build_command: npm install && npm run build
+    start_command: npm run start
+    env:
+      - NODE_ENV=production
+    port: 3000
