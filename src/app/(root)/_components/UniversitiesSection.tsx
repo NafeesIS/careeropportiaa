@@ -7,6 +7,7 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { SectionHeader } from '@/components/ui/section-header';
+import Image from 'next/image';
 
 const universities = [
   {
@@ -51,7 +52,7 @@ const UniversitiesSection = () => {
               className='animate-scale-in overflow-hidden transition-shadow duration-300 hover:shadow-lg'
             >
               <div className='h-48 overflow-hidden'>
-                <img
+                <Image
                   src={university.image}
                   alt={university.name}
                   className='h-full w-full object-cover transition-transform duration-500 hover:scale-110'
