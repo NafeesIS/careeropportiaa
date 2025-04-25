@@ -55,6 +55,8 @@ const UniversitiesSection = () => {
                 <Image
                   src={university.image}
                   alt={university.name}
+                  width={1280}
+                  height={1280}
                   className='h-full w-full object-cover transition-transform duration-500 hover:scale-110'
                 />
               </div>
