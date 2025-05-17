@@ -4,7 +4,7 @@ const Footer = () => {
       <div className='container mx-auto px-4'>
         <div className='grid grid-cols-1 gap-8 md:grid-cols-3'>
           <div>
-            <h3 className='mb-4 text-xl font-bold'>Russia Vista</h3>
+            <h3 className='mb-4 text-xl font-bold'>Careeropportia</h3>
             <p className='text-primary-foreground/80'>
               Your gateway to educational and career opportunities in Russia.
             </p>
@@ -46,7 +46,8 @@ const Footer = () => {
         </div>
         <div className='mt-8 border-t border-primary-foreground/20 pt-8 text-center'>
           <p>
-            &copy; {new Date().getFullYear()} Russia Vista. All rights reserved.
+            &copy; {new Date().getFullYear()} Careeropportia. All rights
+            reserved.
           </p>
         </div>
       </div>

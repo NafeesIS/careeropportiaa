@@ -1,36 +1,27 @@
 import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 
 const Header = () => {
   return (
     <header className='flex items-center justify-between bg-white px-8 py-4 shadow-sm'>
       <div className='flex items-center gap-2'>
-        <span className='text-2xl font-bold text-primary'>Russia Vista</span>
+        <span className='text-2xl font-bold text-primary'>Careeropportia</span>
       </div>
       <nav>
         <ul className='flex gap-8'>
           <li>
-            <a
-              href='#universities'
-              className='text-foreground transition-colors hover:text-primary'
-            >
-              Universities
-            </a>
+            <Link href='/universities'>Universities</Link>
           </li>
           <li>
-            <a
-              href='#jobs'
+            <Link
+              href='contact-us'
               className='text-foreground transition-colors hover:text-primary'
             >
-              Jobs
-            </a>
+              Contact Us
+            </Link>
           </li>
           <li>
-            <a
-              href='#visit'
-              className='text-foreground transition-colors hover:text-primary'
-            >
-              Visit Russia
-            </a>
+            <Link href='/about-us'>About Us</Link>
           </li>
         </ul>
       </nav>
